@@ -13,9 +13,7 @@ main{
 }
 
 .masthead{
-    background-image: url('Images/Mac.png');
-    background-size: cover;
-    background-position: bottom;
+    background: no-repeat bottom / cover url('Images/Mac.png');
     height: 250px;
     border-radius: 20px;
 
@@ -29,7 +27,7 @@ main{
 .details section{
     flex-grow: 1;
     flex-basis: 0;
-    background: #eee;
+    background: #E9EAEC;
     border-radius: 20px;
     margin-top: 25px;
 }
